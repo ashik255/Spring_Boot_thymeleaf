@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.Spring_Boot_thymeleaf.SpringBootThymeleafApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-10T05:11:37" hostname="bjit-Vostro-15-3568" time="0.424">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.Spring_Boot_thymeleaf.SpringBootThymeleafApplicationTests" time="0.424"/>
+  <system-out><![CDATA[11:11:35.528 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [SpringBootThymeleafApplicationTests]: using SpringBootContextLoader
+11:11:35.533 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.example.Spring_Boot_thymeleaf.SpringBootThymeleafApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:11:35.534 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.Spring_Boot_thymeleaf.SpringBootThymeleafApplicationTests]: SpringBootThymeleafApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:11:35.561 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [SpringBootThymeleafApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+11:11:35.632 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/home/bjit/Downloads/Spring/Spring_Boot_thymeleaf/build/classes/java/main/com/example/Spring_Boot_thymeleaf/SpringBootThymeleafApplication.class]
+11:11:35.634 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.Spring_Boot_thymeleaf.SpringBootThymeleafApplication for test class com.example.Spring_Boot_thymeleaf.SpringBootThymeleafApplicationTests
+11:11:35.720 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+11:11:35.722 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+11:11:35.725 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [SpringBootThymeleafApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+11:11:35.726 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [SpringBootThymeleafApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2023-05-10T11:11:36.041+06:00  INFO 9297 --- [    Test worker] .e.S.SpringBootThymeleafApplicationTests : Starting SpringBootThymeleafApplicationTests using Java 20 with PID 9297 (started by bjit in /home/bjit/Downloads/Spring/Spring_Boot_thymeleaf)
+2023-05-10T11:11:36.044+06:00  INFO 9297 --- [    Test worker] .e.S.SpringBootThymeleafApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-05-10T11:11:37.282+06:00  INFO 9297 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-10T11:11:37.488+06:00  INFO 9297 --- [    Test worker] .e.S.SpringBootThymeleafApplicationTests : Started SpringBootThymeleafApplicationTests in 1.716 seconds (process running for 2.893)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
